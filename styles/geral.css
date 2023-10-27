@@ -1,12 +1,19 @@
+@font-face{
+    font-family: Netflix Sans;
+    src: url(../assets/fonte/netflix-sans-font/NetflixSans-Regular.otf);
+}
 *{
     margin: 0%;
     padding: 0%;
+    font-family: Netflix Sans;
+    color: white;
 }
 
 #pagina{
-    width: 100%;}
-
-header, main, footer{
+    width: 100%;
+}
+    
+header, main, footer, #secoesDeSeries, .produtos{
     width: 100%;
     display: flex;
     flex-wrap: wrap;}
@@ -22,8 +29,9 @@ aside{
     align-items: center;}
 
 .imagem{
-    width: 100%;}
-
+    width: 100%;
+}  
+   
 #logo{
     width: 200px;
     height: 100%;
@@ -35,4 +43,74 @@ aside{
     justify-content: center;}  
 
 #asideDireita{
-    justify-content: end;}  
+    justify-content: end;}
+ul{
+    display: flex;
+}
+    
+/*SEÇÃO DE SERIES*/
+#secoesDeSeries{
+    flex-direction: column;
+    background-color: black;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.fila{
+    width: 95%;
+    height: 200px;   
+}
+.fila h2{
+    margin: 10px;
+    font-weight: bold;    
+}
+.produtos{
+    height: 150px;
+    gap: 5px;
+    overflow: scroll;
+}
+.item{
+    width: 200px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+#item1{
+    background-image: url(../images/num1.png);
+}
+#item2{
+    background-image: url(../images/num2.png);
+}
+#item3{
+    background-image: url(../images/num3.png);
+}
+#item4{
+    background-image: url(../images/num4.png);
+}
+#item5{
+    background-image: url(../images/num5.png);
+}
+#item6{
+    background-image: url(../images/num6.png);
+}
+#item7{
+    background-image: url(../images/num7.png);
+}
+#item8{
+    background-image: url(../images/num8.png);
+}
+#item9{
+    background-image: url(../images/num9.png);
+}
+#item10{
+    background-image: url(../images/num10.png);
+}
+#item11{
+    background-image: url(../images/num11.png);
+}
+#item12{
+    background-image: url(../images/num12.png);
+}
