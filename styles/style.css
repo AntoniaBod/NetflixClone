@@ -1,0 +1,148 @@
+#bannerMarcos{
+    height: 500px;
+    background-image: url("../images/marcos.png");
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    background-position: top;
+}
+
+#bannerPolonais{
+    height: 600px;
+    background-image: url("../images/polonais.png");
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    background-position: top;
+}
+
+#sliderItem{
+    background-image: url("../images/num1.png");
+}
+
+#sliderItem1{
+    background-image: url("../images/num2.png");
+}
+
+#sliderItem2{
+    background-image: url("../images/num3.png");
+}
+
+#sliderItem3{
+    background-image: url("../images/num4.png");
+}
+
+#sliderItem4{
+    background-image: url("../images/num5.png");
+}
+
+#sliderItem5{
+    background-image: url("../images/num6.png");
+}
+
+#sliderItem6{
+    background-image: url("../images/num7.png");
+}
+
+#sliderItem7{
+    background-image: url("../images/num8.png");
+}
+
+#sliderItem8{
+    background-image: url("../images/num9.png");
+}
+
+#sliderItem9{
+    background-image: url("../images/num10.png");
+}
+
+#sliderItem10{
+    background-image: url("../images/num11.png");
+}
+
+#sliderItem11{
+    background-image: url("../images/num12.png");
+}
+
+#sliderItem12{
+    background-image: url("../images/num13.png");
+}
+
+#sliderItem13{
+    background-image: url("../images/num14.png");
+}
+
+#sliderItem14{
+    background-image: url("../images/num15.png");
+}
+
+#sliderItem15{
+    background-image: url("../images/num16.png");
+}
+
+#sliderItem16{
+    background-image: url("../images/num17.png");
+}
+
+#sliderItem17{
+    background-image: url("../images/num18.png");
+}
+
+#sliderItem18{
+    background-image: url("../images/num19.png");
+}
+
+#sliderItem19{
+    background-image: url("../images/num20.png");
+}
+
+.categories{
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+.categoriesOptions{
+    width: auto;
+    height: 100%;
+    display: flex;
+    gap: 2px;
+    margin: 20px 20px;
+}
+
+.category{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#comedyCategory{
+    background-color: #d06aff;
+}
+
+#actionCategory{
+    background-color: #7052ff;
+}
+
+#dramaCategory{
+    background-color: #ffff51;
+    color: black;
+}
+
+#scifiCategory{
+    background-color: #68da3e;
+}
+
+#romanceCategory{
+    background-color: #ff7360;
+}
+
+#thrillerCategory{
+    background-color: #ff81ff;
+}
+
+#terrorCategory{
+    background-color: #7052ff;
+}

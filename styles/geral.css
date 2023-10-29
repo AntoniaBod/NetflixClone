@@ -1,116 +1,179 @@
-@font-face{
-    font-family: Netflix Sans;
-    src: url(../assets/fonte/netflix-sans-font/NetflixSans-Regular.otf);
+/* FONTS */
+@font-face {
+    font-family: NetflixSans;
+    src: url(../../fonts/netflix-sans-font/NetflixSans-Regular.otf);
+    font-weight: normal;
 }
+
+/* ALL */
 *{
-    margin: 0%;
     padding: 0%;
-    font-family: Netflix Sans;
+    margin: 0%;
+    font-family: NetflixSans;
     color: white;
+    scroll-behavior: smooth;
 }
 
-#pagina{
-    width: 100%;
+body{
+    background-color: black;
 }
-    
-header, main, footer, #secoesDeSeries, .produtos{
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 70pt;
+}
+
+h3{
+    margin: 0px 20px;
+}
+
+section{
     width: 100%;
+    height: auto;
     display: flex;
-    flex-wrap: wrap;}
+    flex-wrap: nowrap;
+}
 
-header, footer {
-    height: 60px;
-    background-color: black;}
-
-aside{
-    width: 50%;
-    height: 100%;
-    display: flex;
-    align-items: center;}
-
-.imagem{
-    width: 100%;
-}  
-   
-#logo{
-    width: 200px;
-    height: 100%;
+button{
+    height: 45px;
+    background-color: #8080804a;
     display: flex;
     justify-content: center;
-    align-items: center;}
-
-#asideEsquerda{
-    justify-content: center;}  
-
-#asideDireita{
-    justify-content: end;}
-ul{
-    display: flex;
-}
-    
-/*SEÇÃO DE SERIES*/
-#secoesDeSeries{
-    flex-direction: column;
-    background-color: black;
-    gap: 20px;
+    padding: 10px;
     align-items: center;
-
+    gap: 10px;
+    border: none;
+    border-radius: 5px;
 }
 
-.fila{
-    width: 95%;
-    height: 200px;   
+button img{
+    height: 80%;
 }
-.fila h2{
-    margin: 10px;
-    font-weight: bold;    
+
+/* PRE-CONFIGS */
+
+.glass{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 42%, rgba(0,0,0,0.5461834391959909) 78%, rgba(0,212,255,0) 100%);
 }
-.produtos{
-    height: 150px;
-    gap: 5px;
-    overflow: scroll;
-}
-.item{
-    width: 200px;
-    height: 100%;
+
+.backgroundSettings{
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: 100%;
     background-position: center;
 }
 
-#item1{
-    background-image: url(../images/num1.png);
+.serieInfo{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
 }
-#item2{
-    background-image: url(../images/num2.png);
+
+.serieInfo h4{
+    margin: 20px;
 }
-#item3{
-    background-image: url(../images/num3.png);
+
+.userIcons{
+    width: 60px;
 }
-#item4{
-    background-image: url(../images/num4.png);
+
+.icons{
+    width: 30px;
 }
-#item5{
-    background-image: url(../images/num5.png);
+
+.userIcons img,.icons img{
+    width: 100%;
+    height: 100%;
 }
-#item6{
-    background-image: url(../images/num6.png);
+
+.buttonsOrientation{
+    width: auto;
+    height: auto;
+    display: flex;
+    gap: 20px;
+    margin: 20px;
 }
-#item7{
-    background-image: url(../images/num7.png);
+
+.sliderSeries{
+    flex-direction: column;
+    padding: 20px 0px;
 }
-#item8{
-    background-image: url(../images/num8.png);
+
+.slider{
+    padding: 20px;
+    display: flex;
+    gap: 15px;
 }
-#item9{
-    background-image: url(../images/num9.png);
+
+.seriesFromSlider{
+    width: 380px;
+    height: 190px;
+    margin: 10px 0px;
+    background-color: aqua;
 }
-#item10{
-    background-image: url(../images/num10.png);
+
+/* MAINPAGE */
+#mainPage{
+    min-width: 320px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
 }
-#item11{
-    background-image: url(../images/num11.png);
+
+/* HEADER */
+header{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
 }
-#item12{
-    background-image: url(../images/num12.png);
+
+nav{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+}
+
+nav ul li{
+    gap: 20px;
+    align-items: center;
+}
+
+#logo{
+    width: 200px;
+}
+
+#logo img{
+    width: 100%;
+    height: 100%;
+}
+
+/* FOOTER */
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(20, 20, 20);
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
